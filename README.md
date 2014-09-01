@@ -5,7 +5,7 @@ An Interface Class for Javascript
 
 Usage
 
-`
+```javascript
 var Composite = new Interface('Composite', ['add', 'remove', 'getChild']);
 var FormItem = new Interface('FormItem', ['save']);
 
@@ -24,4 +24,4 @@ function addForm (formInstance) {
   // All code beneath this line will be executed only if the checks pass.
   ...
 }
-`
+```
